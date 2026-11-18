@@ -1,0 +1,21 @@
+# Datasets downloaded at runtime by tensorflow_datasets
+data/
+tensorflow_datasets/
+*.tfrecord
+
+# Saved models and checkpoints
+*.h5
+*.keras
+saved_model/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
